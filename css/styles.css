@@ -29,7 +29,7 @@ font-style:normal;
  color: #4d5ae5; 
 }
 
-.header-logo  .logo-part {
+.header-logo .logo-part {
  color: #2e2f42;
 }
 
@@ -90,81 +90,84 @@ font-style:normal;
 .hero{
  background: #2e2f42;
 }
-.section-title{
- font-size: 56px;
- line-height: 1.07;
+
+/* Team section*/ 
+
+.features-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.features-description {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.team-section {
+     background-color: #f4f4fd;
+}
+
+.section-title {
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+}
+
+.team-item {
+    background-color: #fff;;
+}
+.member-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+.member-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+
+.portfolio-title {
+ font-size: 36px;
+ line-height: 1.11;
  letter-spacing: 0.02em;
- color: #fff;
  text-align: center;
-}
-.feature-title{
- font-weight: 500;
- font-size: 20px;
- line-height: 1.2;
- letter-spacing: 0.02em;
- color: #2e2f42;
-}
-.feature-description{
- font-weight: 400;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #434455;
-}
-.team-title-section{
- background: #f4f4fd;
-}
-.team-title{
- font-size: 36px;
- line-height: 1.11;
- letter-spacing: 0.02em;
- text-align:center;
- text-transform:capitalize;
- color: #2e2f42;
+ text-transform: capitalize;
+  color: #2e2f42;
 }
 
-.name-title{
- font-weight: 500;
- font-size: 20px;
- line-height: 1.2;
- letter-spacing: 0.02em;
- color: #2e2f42;
-}
-.text-title{
- font-weight: 400;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #434455;
+.portfolio-item {
+backgrond: #fff;
 }
 
-.portfolio-title{
- font-size: 36px;
- line-height: 1.11;
- letter-spacing: 0.02em;
- text-align:center;
- text-transform:capitalize;
- color: #2e2f42;
+.portfolio-name {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.portfolio-item{
- background-color: #ffffff;
-}
-.accent {
- color: #2e2f42;
-}
-.footer{
- background:#2e2f42;
-}
-
-.name-company-footer{
- font-family: "Raleway", sans-serif;
- font-size: 18px;
- line-height: 1.17;
- letter-spacing: 0.03em;
- text-transform: uppercase;
- color: #4d5ae5;
- font-weight: 700;
-}
+.portfolio-type {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+    }
 
 /* Footer style*/
 
@@ -172,7 +175,7 @@ font-style:normal;
   background-color: #2e2f42;  
 }
 
-.footeer-logo  .logo-part {
+.footer-logo  .logo-part {
  color: #f4f4fd
 }
 .footer-slogan {
